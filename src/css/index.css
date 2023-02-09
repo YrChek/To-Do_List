@@ -1,0 +1,72 @@
+.container {
+  display: block;
+  width: 40%;
+  max-height: 500px;
+  border: 2px solid black;
+  border-radius: 20px;
+  text-align: center;
+  overflow: auto;
+}
+
+.input {
+  width: 85%;
+  height: 30px;
+}
+
+.pinned {
+  display: block;
+  position: relative;
+
+}
+
+.all-tasks {
+  position: relative;
+}
+
+.text {
+  margin: 10px 0;
+}
+
+.stopper {
+  display: block;
+  width: 90%;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+  margin: 5px auto;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: left;
+  margin: 5px auto;
+}
+
+.task-item-text {
+  width: 85%;
+}
+
+.task-item-switch {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0 5px;
+  margin-left: auto;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}

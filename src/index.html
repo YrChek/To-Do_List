@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="/src/css/index.css" type="text/css"/> -->
+  <title>Random picture</title>
+</head>
+<body>
+  <div class="container">
+    <div class="top-tasks">
+      <div class="top-tasks-text text">TOP Tasks</div>
+      <form class="form">
+        <input type="text" class="input" required oninvalid="this.setCustomValidity('Необходимо заполнить поле')" oninput="setCustomValidity('')"">
+      </form>
+    </div>
+    <div class="pinned">Pinned
+      <div class="stopper">No pinned tasks</div>
+    </div>
+    <div class="all-tasks">ALL Tasks</div>
+      <div class="task-item hidden">No tasks found</div>
+  </div>
+  <script src="/src/index.js" type="module"></script>
+</body>
