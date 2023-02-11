@@ -1,6 +1,7 @@
 .container {
   display: block;
-  width: 40%;
+  margin: auto;
+  width: 450px;
   max-height: 500px;
   border: 2px solid black;
   border-radius: 20px;
